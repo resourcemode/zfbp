@@ -1,0 +1,27 @@
+{
+    "name": "gianarb/zf2-startup",
+    "description": "Skeleton Application for ZF2",
+    "license": "MIT",
+    "keywords": [
+        "framework",
+        "zf2"
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zend-mvc": "2.3.*",
+        "zendframework/zend-loader": "2.3.*",
+        "zendframework/zend-config": "2.3.*",
+        "zendframework/zend-form": "2.3.*",
+        "zendframework/zend-view": "2.3.*",
+        "zendframework/zend-log": "2.3.*",
+        "zendframework/zend-console": "2.3.*",
+        "zendframework/zend-modulemanager": "2.3.*",
+        "zendframework/zend-http": "2.3.*",
+        "zendframework/zend-serializer": "2.3.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Application\\": "module/Application/src"
+        }
+    }
+}
