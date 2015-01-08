@@ -9,3 +9,5 @@ vendor
 .settings
 composer.lock
 vendor/bin
+bower_components
+node_modules
