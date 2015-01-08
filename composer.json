@@ -1,5 +1,5 @@
 {
-    "name": "gianarb/zf2-startup",
+    "name": "gianarb/zfbp",
     "description": "Skeleton Application for ZF2",
     "license": "MIT",
     "keywords": [
@@ -18,6 +18,10 @@
         "zendframework/zend-modulemanager": "2.3.*",
         "zendframework/zend-http": "2.3.*",
         "zendframework/zend-serializer": "2.3.*"
+    },
+    "require-dev": {
+        "zendframework/zftool": "*",
+        "zendframework/zend-developer-tools": "*"
     },
     "autoload": {
         "psr-0": {
